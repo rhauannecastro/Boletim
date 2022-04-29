@@ -1,0 +1,251 @@
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_portugues  = int(input('Digite a nota de Portugues :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Lingua Portuguesa: ' , nota_portugues)
+if nota_portugues >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulaportugues   = 100
+presencaportugues  = int(input("Digite as presencas em Portugues :"))
+if presencaportugues >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_matematica = int(input('Digite a nota de Matemática :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Matemática: ' , nota_matematica)
+if nota_matematica >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulamatematica   = 100
+presencamatematica  = int(input("Digite as presenças em Matemática :"))
+if presencamatematica >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_biologia = int(input('Digite a nota de Biologia :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Biologia: ' , nota_biologia)
+if nota_biologia >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulabiologia   = 100
+presencabiologia  = int(input("Digite as presenças em Biologia :"))
+if presencabiologia >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_fisica = int(input('Digite a nota de Física :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Física: ' , nota_fisica)
+if nota_fisica >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulafisica   = 100
+presencafisica  = int(input("Digite as presenças em Física :"))
+if presencafisica >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_quimica = int(input('Digite a nota de Química :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Química: ' , nota_quimica)
+if nota_quimica >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulaquimica   = 100
+presencaquimica  = int(input("Digite as presenças em Química :"))
+if presencaquimica >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_artes = int(input('Digite a nota de Artes :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Artes: ' , nota_matematica)
+if nota_artes >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulaartes   = 100
+presencaartes  = int(input("Digite as presenças em Artes:"))
+if presencaartes >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_educacaofisica = int(input('Digite a nota de Educação Física :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Educação Física: ' , nota_educacaofisica)
+if nota_educacaofisica >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulaeducaçaofisica   = 100
+presencaeducacaofisica  = int(input("Digite as presenças em Educação Física :"))
+if presencaeducacaofisica >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_ingles = int(input('Digite a nota de Inglês :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Lingua Inglesa: ' , nota_ingles)
+if nota_ingles >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulaingles   = 100
+presencaingles  = int(input("Digite as presenças em ingles :"))
+if presencaingles >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_filosofia = int(input('Digite a nota de Filosofia :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Filosofia: ' , nota_filosofia)
+if nota_filosofia >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulafilosofia   = 100
+presencafilosofia  = int(input("Digite as presenças em Filosofia :"))
+if presencafilosofia >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_geografia = int(input('Digite a nota de Geografia :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Geografia: ' , nota_geografia)
+if nota_geografia >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulageografia   = 100
+presencageografia  = int(input("Digite as presenças em Geografia :"))
+if presencageografia >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_historia  = int(input('Digite a nota de Historia :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Historia: ' , nota_historia)
+if nota_historia  >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulahistoria    = 100
+presencahistoria   = int(input("Digite as presenças em Historia :"))
+if presencahistoria  >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+
+nome_aluno = input('Digite o nome do aluno :')
+ra_aluno =  input('Digite o RA do aluno :')
+nota_sociologia  = int(input('Digite a nota de Sociologia :'))
+print('+---------------------------------------------------+')
+print('Nome do Aluno: ' + nome_aluno)
+print('RA do Aluno: ' + ra_aluno)
+print('+---------------------------------------------------+')
+print('Sociologia: ' , nota_sociologia)
+if nota_sociologia  >= 6:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
+aulasociologia   = 100
+presencasociologia   = int(input("Digite as presenças em Sociologia :"))
+if presencasociologia  >= 50:
+    print('Aprovado')
+else:
+    print('Reprovado')
+print('+---------------------------------------------------+')
