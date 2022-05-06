@@ -1,0 +1,416 @@
+# Boletim
+Boletim das 12 matérias do Ensino Médio (em python)
+'''Boletim escolar'''
+''' Mediante programação de linguagem Python'''
+'''Data do programa: 02/05/2022'''
+'''Programador:Rhauanne'''
+print('Boletim escolar 2022')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nome_aluno = input('Digite o nome do aluno:')
+ra_aluno   =  input('Digite o RA do aluno :')
+print('----Português------')
+nota_portugues  = int(input('Digite a nota de Portuguêss :'))
+falta_portugues = int(input("Digite a quantidade de faltas em Português :"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_portugues >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_portugues >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Nome do aluno--Ra do Aluno')
+print('  ' +nome_aluno+ '     ' +ra_aluno)
+print('+---------------------------------------------------+')
+print('Disciplina: Português:' +status_aluno)
+
+print('----Matemática----')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nota_matematica  = int(input('Digite a nota de Matemática :'))
+falta_matematica = int(input("Digite a quantidade de faltas em Matemática :"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_matematica >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_matematica >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Disciplina: Matemática:' +status_aluno)
+
+
+print('----Ciências----')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nota_historia  = int(input('Digite a nota de História :'))
+falta_historia = int(input("Digite a quantidade de faltas em História :"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_historia >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_historia >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Disciplina: História:' +status_aluno)
+
+
+print('----Biologia----')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nota_biologia  = int(input('Digite a nota de Biologia :'))
+falta_biologia = int(input("Digite a quantidade de faltas em Biologia:"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_biologia >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_biologia >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Disciplina: Biologia:' +status_aluno)
+
+
+print('----Geografia----')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nota_geografia  = int(input('Digite a nota de Geografia :'))
+falta_geografia = int(input("Digite a quantidade de faltas em Geografia:"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_geografia >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_geografia >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Disciplina: Geografia:' +status_aluno)
+
+print('----Física----')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nota_fisica  = int(input('Digite a nota de Física :'))
+falta_fisica = int(input("Digite a quantidade de faltas em Física:"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_fisica >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_fisica >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Disciplina: Física:' +status_aluno)
+
+
+print('----Química----')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nota_quimica  = int(input('Digite a nota de Química :'))
+falta_quimica = int(input("Digite a quantidade de faltas em Química:"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_quimica >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_quimica >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Disciplina: Química:' +status_aluno)
+
+
+print('----Inglês----')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nota_ingles  = int(input('Digite a nota de Inglês :'))
+falta_ingles = int(input("Digite a quantidade de faltas em Inglês:"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_ingles >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_ingles >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Disciplina: Inglês:' +status_aluno)
+
+
+print('----Artes----')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nota_artes  = int(input('Digite a nota de Artes :'))
+falta_artes = int(input("Digite a quantidade de faltas em Artes:"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_artes >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_artes >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Disciplina: Artes:' +status_aluno)
+
+
+print('----Educação Física----')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nota_educacaofisica  = int(input('Digite a nota de Educação Física :'))
+falta_educacaofisica = int(input("Digite a quantidade de faltas em Educação Física:"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_educacaofisica >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_educacaofisica >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Disciplina: Educação Física:' +status_aluno)
+
+
+print('----Filosofia----')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nota_filosofia  = int(input('Digite a nota de Filosofia :'))
+falta_filosofia = int(input("Digite a quantidade de faltas em Filosofia:"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_filosofia >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_filosofia >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Disciplina: Filosofia:' +status_aluno)
+
+
+print('----Sociologia----')
+'''variáveis'''
+status_aprov= 'Aprovado'
+status_repr= 'Reprovado'
+
+'''Entrada de dados'''
+
+nota_sociologia  = int(input('Digite a nota de Sociologia :'))
+falta_sociologia = int(input("Digite a quantidade de faltas em Sociologia:"))
+
+'''processamento'''
+
+''' para a aprovação por presença é necessário que o aluno '''
+'''obtenha a frequência maior ou igual a 75% dos 200 dias letivos'''
+'''verificando se o aluno foi aprovado presença '''
+if falta_sociologia >= 150:
+   status_aluno= status_repr
+else:
+    status_aluno= status_aprov
+    
+'''para a aprovação por nota é necessário que o aluno '''
+'''obtenha a nota maior ou igual a 6'''
+'''verificando se o aluno foi aprovado por nota'''
+if nota_sociologia >= 6:
+   status_aluno= status_aprov
+else:
+    status_aluno= status_repr
+'''Resultado'''
+print('+---------------------------------------------------+')
+print('Boletim escolar :')
+print('+---------------------------------------------------+')
+print('Disciplina: Sociologia:' +status_aluno)
